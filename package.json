@@ -28,9 +28,10 @@
   },
   "license": "Apache-2.0",
   "scripts": {
-    "start": "gulp dev",
     "test": "gulp test",
-    "coverage": "gulp check"
+    "coverage": "gulp check",
+    "heroku-postbuild": "gulp build",
+    "start": "node server/index.js"
   },
   "dependencies": {
     "bluebird": "^3.4.6",
