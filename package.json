@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "super duperdup",
   "homepage": "",
+"engines": {
+      "node": "4.2.x"
+    },
   "author": {
     "name": "Justin",
     "email": "speajus@gmail.com",
